@@ -1,0 +1,535 @@
+.tong { 
+    width:100%; 
+    height:auto; 
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+a:hover {
+    text-decoration: none;
+    color: #006BA0 !important;
+}
+.menu{ width:100%; height:36px; background:black; margin-bottom: 20px;}
+.menu .container {
+    position: relative;
+}
+.menu a:first-child {
+    font-size: 16px;
+}
+.menu  a { 
+    text-decoration:none;
+    color:#FFF; 
+    font-weight:bold;
+    font-family:Tahoma, Geneva, sans-serif;
+    float:left;
+    padding: 4px 10px;
+    font-size:12px;
+    text-align:center;
+    line-height:30px;
+
+}
+
+.menu a:last-child{ border:none;}
+.menu  a:hover { 
+    text-decoration: underline;
+    color: #FFF !important;
+}
+.search {
+    width: 300px;
+    float: left;
+    height: 36px;
+    margin-left: 50px;
+}
+.search input[type=text]
+{
+    width: 270px;
+    height: 25px;
+    font-size: 15px;
+    padding: 0 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 6px;
+    float: left;
+}
+.search button {
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: none;
+    float: left;
+    margin-top: 5px;
+    color: #FFF;
+}
+.search button:focus {
+    outline: none;
+}
+.search button span {
+    font-size: 20px;
+}
+.menu .user {
+    font-size: 16px;
+    position: absolute;
+    right: 15px;
+    color: #FFF;
+    padding-top: 6px;
+}
+.dropdown-menu li > a:hover{
+    background: none;
+    color: #337ab7 !important;
+}
+.menu .user .btn-group button {
+    background: none;
+    border: none;
+    color: #FFF;
+    width: 100%;
+    padding: 0;
+}
+.menu .user .btn-group button:focus {
+    background: none;
+    color: #FFF;
+}
+.tincapnhat .hot-news {
+    height: 30px;
+    overflow: hidden;
+}
+.tincapnhat .title {
+    margin-top: 8px !important;
+}
+.hot-news p {
+    color: #ff6a2b;
+    font-weight: bold;
+    font-size: 15px;
+    width: 180px;
+    height: 30px;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.hot-news ul {
+    width: 600px;
+    height: 30px;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+.title {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #333333;
+    overflow: hidden;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.title-img {
+    float: left;
+    margin-left: -8px;
+}
+.title a.link {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+.left{
+    overflow:hidden;
+    height: auto;
+    padding-right: 0;
+}
+.boc-left{
+    overflow: hidden;
+    height: 80px;
+    margin-bottom: 16px;
+}
+.boc-left a{
+    color: #555;
+
+}
+.boc-left .img-left {
+    width: 120px;
+    height: 80px;
+    float: left;
+}
+.grey{ color:#999; }
+
+.boc-left .title-small{
+    font-size:13px;
+    float: left;
+    padding-left: 12px;
+    width: 157.5px;
+    color: #555;
+    line-height: 1.4;
+    font-weight: 600;
+}
+.middle {
+ padding-left: 22px;
+}
+.middle img {
+    width: 100%;
+    height: 325px;
+}
+.middle .title-main {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.2;
+    height: 72px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    overflow: hidden;
+
+}
+.middle .title-small {
+    font-size: 14.5px;
+    line-height: 1.5;
+    height: 70px;
+    overflow: hidden;
+    color: #444444;
+}
+
+.middle a{
+   color: #333;
+   text-decoration: none;
+}
+
+.middle h1:hover{
+    color:cornflowerblue;
+}
+.right img {
+    width: 100%;
+    height: 172px;
+}
+.right .img {
+    margin-bottom: 8px;
+    height: 220px;
+    overflow: hidden;
+}
+.right .title-small {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 5px;
+}
+.right a{
+    color: #555;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right h1:hover{
+    color: #2aabd2;
+}
+
+.phan2{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.phan2 .ads1, .ads2 {
+    border: 1px solid #c3c1c1;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.phan2 .ads1 {
+    height: 150px;
+}
+.phan2 .ads2 {
+    height: 597px;
+}
+.pagination {
+    margin-left: 12px;
+}
+.baivietphan2{
+    height: 152px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.baivietphan2 .trai{
+    width: 225px;
+    height: 152px;
+    float: left;
+}
+.baivietphan2 .phai{
+    float: left;
+    height: auto;
+    padding-left: 15px;
+    width: 622.5px;
+    line-height: 1.3;
+}
+.phai p{
+    font-size: 30px;
+}
+.phai a{
+    color: #333;
+    text-decoration: none;
+}
+.phai .title-main {
+    font-size: 20px;
+    font-weight: bold;
+}
+.phai .thoigian {
+    font-size: 12px;
+    color: #afaaaa;
+
+}
+.phai .thoigian span {
+    color: #333;
+    text-transform: uppercase;
+}
+.phai .title-small {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    text-align: justify;
+    color: #888888;
+}
+
+.phan3{
+    height: auto;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+s
+.phan3 .goc1{
+    height: auto;
+}
+
+.phan3 a{
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.phan3 .tieudegoc-nho{
+    width: 157.5px;
+    float: left;
+    padding-left: 8px;
+}
+
+.phan3 .gocnho {
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.phan3 .gocnho img {
+    float: left;
+}
+.phan3 .tieudegoc {
+    text-align: justify;
+    margin-top: 5px;
+    height: 61px;
+    overflow: hidden;
+}
+.phan3 hr {
+   margin: 6px 0;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: gainsboro;
+
+}
+.footer .menu1{
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 16px;
+}
+.menu1 a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-family:Tahoma, Geneva, sans-serif;
+    float:left;
+    width:80px;
+    font-size:12px;
+    text-align:center;
+    line-height:30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.menu1 a:last-child{ border:none;}
+.menu1 a:hover{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.ketquatimkiem{
+    width: 1120px;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    float: left;
+}
+
+/* CHI TIẾT BÀI VIẾT */
+.content {
+    padding-top: 32px;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 32px;
+}
+.content .tieude {
+    color: #2b2a2a;
+    font-size: 28px;
+    font-weight: bold;
+}
+.content .noidung img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.content .noidung p {
+    margin: 18px 0;
+    font-size: 16px;
+}
+.content .noidung a {
+   color: #333333;
+}
+.content .noidung h3 {
+    color: #888888;
+    margin: 0;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+.content .noidung h2 {
+    font-size: 22px;
+
+}
+.content .tacgia .ten{
+    font-weight: bold;
+    font-size: 13.5px;
+}
+.content .tacgia .thoigian {
+    color: #888888;
+    font-size: 13px;
+}
+.content .mota {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    font-weight: bold;
+}
+.content .ads, .tinlienquan {
+    border: 1px solid #c3c1c1;
+    text-align: center;
+    line-height: 200px;
+    width: 80%;
+    margin: 32px 0px 32px 70px;
+    height: 200px;
+}
+.content .tinlienquan {
+    text-align: left;
+    border: none;
+}
+
+.tinlienquan .tin {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.tin img {
+    width: 120px;
+    height: 80px;
+    float: left;
+}
+.tin a {
+    color: #444;
+}
+.tin .mota {
+    font-size: 13px;
+    font-weight: bold;
+    width: 168px;
+    float: left;
+    padding-left: 8px;
+}
+.content .form-comment {
+    background-color: #f7f7f7;
+    padding: 15px;
+
+}
+.form-comment textarea {
+    border: 1px solid #A3B1CF;
+}
+.form-comment button {
+    background-color: #4e69a2;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.list-comment {
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    border-width: 2px;
+    border-top: 1px #e5e5e5 solid;
+}
+.comment {
+    overflow: hidden;
+    font-size: 15px;
+    border-bottom: 1px #f0f0f0 solid;
+    margin-bottom: 12px;
+    height: 75px;
+}
+.comment:last-child {
+    border-bottom: none;
+}
+.comment img {
+    float: left;
+    margin-top: 5px;
+}
+.comment .binhluan {
+    float: left;
+    padding-left: 10px;
+    width: 700px;
+}
+.binhluan .ten {
+    color: #578cca;
+    margin-bottom: 0;
+}
+.binhluan .ten .label {
+    color: #FFF;
+    font-weight: normal;
+    font-size: 75%;
+}
+.binhluan span {
+    color: #999999;
+    font-size: 13px;
+}
+.phan5{
+    width: 1120px;
+    height: auto;
+    margin-left: 140px;
+    float: left;
+    margin-top: 15px;
+}
+.phan5 .goc2{
+    width: 270px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.tieudelienquan{
+    width: 1130px;
+    height: auto;
+    float: left;
+}
+/*************** ADMIN ****************/
+.sidebar a:hover{
+    color: #555 !important;
+}
+.main .btn-default:hover {
+    color: #333 !important;
+}
+.main .btn-danger:hover {
+    color: #fff !important;;
+}
+.main .btn-primary:hover {
+    color: #fff !important;;
+}
+.main .btn-success:hover {
+    color: #fff !important;;
+}
+.error {
+    color: #a94442;
+    padding: 12px;
+    margin: 0;
+}
